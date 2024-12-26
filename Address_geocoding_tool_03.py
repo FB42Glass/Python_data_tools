@@ -44,7 +44,7 @@ def split_address(address):
 # Apply the function to split the Address column
 df[['streetAddress', 'City', 'State', 'Zip']] = df['Address'].apply(split_address)
 
-# Drop the original City/State/Zip column if no longer needed
+# Drop the original Address column if no longer needed
 df.drop(columns=["Address"], inplace=True)
 
 # Print the resulting DataFrame
