@@ -5,9 +5,6 @@
 # This script accesses the Geoapify geocoding API and batch geocodes address data from the NC Local Health Departments Directory Dataset
 # 
 # [Geoapify](https://myprojects.geoapify.com/api/Cljb2vX61qVCcBOShv2A/statistics) will geocode  up to 3,000 addresses for free per day. 
-# 
-# 
-# Updated 12/26/24 to include steps to split single 'Address' column into separate 'streetAddress', 'City', 'State', and 'Zipcode' columns.
 
 # In[1]:
 
