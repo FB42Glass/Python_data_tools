@@ -3,4 +3,4 @@ This repository is for storing completed scripts that I have written for automat
 
 ## Current Contents:
 - webscraper04_NC_certified_labs - script for extracting certified laboratories data from the North Carolina DHHS State Laboratory of Public Health website.
-- 
+- Address_geocoding_tool_03 - script for utilizing geoapify api to geocode address information and output latitude and longitude data for each input address.
