@@ -132,7 +132,7 @@ finally:
     driver.quit()
 
     # Save the results to a CSV file
-    all_certified_labs.to_csv(r"C:\Users\bertr\OneDrive\Documents\NC_DHHS_PH_Work\datasets\Storymap_Datasets\NC_State_certified_labs.csv", index=False)
+    all_certified_labs.to_csv("NC_State_certified_labs.csv", index=False)
     print("Scraping completed. Data saved to certified_labs.csv.")
 
 
