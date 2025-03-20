@@ -189,7 +189,7 @@ finally:
     all_certified_labs = reorder_columns(all_certified_labs, columns_to_move, target_indices)
 
     # Save the results to a CSV file
-    all_certified_labs.to_csv(r"C:\Users\bertr\OneDrive\Documents\NC_DHHS_PH_Work\Notes\Work Notes\Testing resources Dashboard\NC_State_certified_labs Dashboard\Data Prep\NC_State_certified_labs_comm.csv", index=False)
+    all_certified_labs.to_csv(r"INSERT\YOUR\FILE\PATH\NC_State_certified_labs_comm.csv", index=False)
     print("Scraping completed. Data saved to NC_State_certified_labs_comm.csv.")
 
 
@@ -350,7 +350,7 @@ finally:
     all_certified_labs = reorder_columns(all_certified_labs, columns_to_move, target_indices)
 
     # Save the results to a CSV file
-    all_certified_labs.to_csv(r"C:\Users\bertr\OneDrive\Documents\NC_DHHS_PH_Work\Notes\Work Notes\Testing resources Dashboard\NC_State_certified_labs Dashboard\Data Prep\NC_State_certified_labs_municipal.csv", index=False)
+    all_certified_labs.to_csv(r"INSERT\YOUR\FILE\PATH\\NC_State_certified_labs_municipal.csv", index=False)
     print("Scraping completed. Data saved to NC_State_certified_labs_municipal.csv.")
 
 
